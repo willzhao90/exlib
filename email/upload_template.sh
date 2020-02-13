@@ -1,0 +1,1 @@
+aws ses create-template --cli-input-json file://./sample_template.json --region=us-east-1

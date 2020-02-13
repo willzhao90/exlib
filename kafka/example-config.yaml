@@ -1,0 +1,5 @@
+kafka:
+  brokers:
+    - localhost:9092
+  dispatcherErrFatal: false # true if you wish errors returned from the dispatcher as fatal and return immediately
+  failSave: true            # true if you wish to save any failed messages and recheck them in the future
